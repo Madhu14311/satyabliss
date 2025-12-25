@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Mail from "./Mail";
 import Login from "./Login";
 import Employee from "./Employee";

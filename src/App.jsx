@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Mail from "./Mail";
 import Login from "./Login";
 import Employee from "./Employee";
@@ -36,7 +36,7 @@ export default function App() {
 
 // export default function App() {
 //   return (
-//     <BrowserRouter>
+//     <HashRouter>
 //       <Routes>
 //         {/* Public Routes */}
 //         <Route path="/mail" element={<Mail />} />
@@ -58,6 +58,6 @@ export default function App() {
 //           }
 //         />
 //       </Routes>
-//     </BrowserRouter>
+//     </HashRouter>
 //   );
 // }
